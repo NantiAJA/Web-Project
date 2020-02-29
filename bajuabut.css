@@ -15,16 +15,16 @@ body {
 }
 
 .dra {
-    margin-top: 10%;
+    top: 100px;
     text-align: center;
-    font-size: 40px;
+    font-size: 45px;
     font-style: normal;
     font-family: 'pacifico';
     color: #FCB371;
 }
 
 .dro {
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: 25%;
     margin-right: 25%;
     text-align: center;
@@ -32,4 +32,9 @@ body {
     font-style: normal;
     font-family: 'Muli';
     color: white;
+}
+
+.har {
+    rotate: -180deg;
+    padding: 50px;
 }
