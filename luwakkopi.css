@@ -25,7 +25,7 @@ body {
     font-size: 40px;
     color: #FCB371;
     text-align: center;
-    margin-top: 7%;
+    margin: auto;
 }
 
 .username {
@@ -33,7 +33,7 @@ body {
     width: 442px;
     height: 10px;
     left: calc(50% - 442px/2);
-    top: calc(50% - 10px/2 - 128px);
+    top: calc(50% + 50px/2 - 128px);
     border: solid white;
 }
 
@@ -42,7 +42,7 @@ body {
     width: 442px;
     height: 10px;
     left: calc(50% - 442px/2 + 0.5px);
-    top: calc(50% - 10px/2 - 66px);
+    top: calc(50% + 50px/2 - 66px);
     border: solid white;
 }
 
@@ -51,7 +51,7 @@ body {
     width: 190px;
     height: 7px;
     left: calc(50% - 235px/2 - 102px);
-    top: calc(50% - 7px/2 - 4px);
+    top: calc(50% + 50px/2 - 4px);
     border: solid white;
 }
 
@@ -60,7 +60,7 @@ body {
     height: 7px;
     position: absolute;
     left: calc(50% - 221px/2 + 133px);
-    top: calc(50% - 7px/2 - 4px);
+    top: calc(50% + 50px/2 - 4px);
     border: solid white;
 }
 
@@ -70,7 +70,7 @@ body {
     width: 442px;
     height: 80px;
     left: calc(50% - 442px/2 + 0.5px);
-    top: calc(50% - 80px/2 + 93px);
+    top: calc(45% + 50px/2 + 93px);
     border: solid white;
 }
 
@@ -89,7 +89,7 @@ input {
     width: 480px;
     height: 45px;
     left: calc(50% - 442px/2 + 2px);
-    top: calc(50% - 30px/2 + 200px);
+    top: calc(50% + 30px/2 + 200px);
     text-decoration: none;
     font-style: normal;
     font-size: 13px;
