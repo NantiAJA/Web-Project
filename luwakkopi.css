@@ -35,7 +35,6 @@ body {
     left: calc(50% - 442px/2);
     top: calc(50% - 10px/2 - 128px);
     border: solid white;
-
 }
 
 .email {
@@ -72,33 +71,32 @@ body {
     height: 80px;
     left: calc(50% - 442px/2 + 0.5px);
     top: calc(50% - 80px/2 + 93px);
-    order: 0;
-    flex: none;
     border: solid white;
 }
 
 input {
     display: flex;
     flex-direction: row;
-    padding: 16px;
     font-size: 11px;
     font-family: 'Quicksand';
     box-shadow: none;
     border-radius: 8px;
-
-
+    padding: 16px;
 }
 
 .bt {
     position: absolute;
-    width: 442px;
-    height: 53px;
-    left: calc(50% - 442px/2 + 0.5px);
-    top: calc(50% - 30px/2 + 209.5px);
+    width: 480px;
+    height: 45px;
+    left: calc(50% - 442px/2 + 2px);
+    top: calc(50% - 30px/2 + 200px);
     text-decoration: none;
     font-style: normal;
-    flex: none;
-    text-align: center;
+    font-size: 13px;
+    font-family: 'Pacifico';
+    color: white;
     background-color: #FCB371;
     border: solid #FCB371;
+    border-radius: 8px;
+    cursor: pointer;
 }
